@@ -2,7 +2,7 @@ name: ci-nodejs-workflow
 on:
   pull_request:
     branches:
-      - develop
+      - dev
 
 jobs:
   check-test-application:
