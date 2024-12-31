@@ -10,7 +10,7 @@ COPY src src
 
 RUN npm ci
 
-RUN npm run builder
+RUN npm run build
 
 
 FROM node:20.18-alpine
