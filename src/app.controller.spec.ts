@@ -26,5 +26,9 @@ describe('AppController', () => {
     it('should return "Hello World3 - CI & CD! By Felipe Godoy"', () => {
       expect(appController.getHello3()).toBe('Hello World3 - CI & CD! By Felipe Godoy');
     });
+
+    it('should return "Hello World4 - CI & CD! By Felipe Godoy"', () => {
+      expect(appController.getHello4()).toBe('Hello World4 - CI & CD! By Felipe Godoy');
+    });
   });
 });
