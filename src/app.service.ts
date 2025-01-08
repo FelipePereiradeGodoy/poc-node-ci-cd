@@ -5,6 +5,6 @@ export class AppService {
   constructor () {}
 
   getHello(): string {
-    return `Hello World - CI & CD! By Felipe Pereira de Godoy`;
+    return `Hello World - CI & CD! By Felipe Godoy`;
   }
 }
