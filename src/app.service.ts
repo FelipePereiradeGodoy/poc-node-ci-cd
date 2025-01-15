@@ -4,19 +4,19 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   constructor () {}
 
-  getHello1(): string {
-    return `Hello World1 - CI & CD! By Felipe Godoy`;
+  getHelloWorld(): string {
+    return `Hello World`;
   }
 
-  getHello2(): string {
-    return `Hello World2 - CI & CD! By Felipe Godoy`;
+  getHelloDev(): string {
+    return `Hello Felipe Godoy`;
   }
 
-  getHello3(): string {
-    return `Hello World3 - CI & CD! By Felipe Godoy`;
+  getHelloRepo(): string {
+    return `Hello POC-CI-CD`;
   }
 
-  getHello4(): string {
-    return `Hello World4 - CI & CD! By Felipe Godoy`;
+  getHello(): string {
+    return `Hello`;
   }
 }
